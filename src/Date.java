@@ -1,8 +1,10 @@
 import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement
+@XmlType(propOrder = {"jour","mois","annee"})
 public class Date implements Serializable {
 
 	private int jour;

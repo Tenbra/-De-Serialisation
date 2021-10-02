@@ -1,1 +1,7 @@
 out
+bin
+.idea
+.settings
+.classpath
+(De)Serialisation.iml
+.project

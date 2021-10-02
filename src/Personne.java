@@ -1,9 +1,9 @@
 import java.io.Serializable;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name="Etudiant")  // Transforme le nom de la balise mere en celui passé en attribut
+@XmlType(propOrder = {"nom","prenom","dateNaissance"})
 public class Personne implements Serializable {
 
 	private String nom;
@@ -21,7 +21,7 @@ public class Personne implements Serializable {
 		this.prenom = prenom;
 		this.dateNaissance = dateNaissance;
 	}
-	@XmlAttribute   // Transforme l'attribut de la class en attribut de la balise mere lors de la creation du fichier XML
+	//@XmlAttribute    Transforme l'attribut de la class en attribut de la balise mere lors de la creation du fichier XML
 	public String getNom() {
 		return nom;
 	}
@@ -29,7 +29,7 @@ public class Personne implements Serializable {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-
+	//@XmlTransient    Pour que l'element n'apparait pas dans le document XML
 	public String getPrenom() {
 		return prenom;
 	}

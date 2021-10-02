@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personnes>
+    <personnes>
+        <nom>Tenede</nom>
+        <prenom>Bryan</prenom>
+        <dateNaissance>
+            <jour>11</jour>
+            <mois>4</mois>
+            <annee>2000</annee>
+        </dateNaissance>
+    </personnes>
+    <personnes>
+        <nom>Tenede</nom>
+        <prenom>Bryan</prenom>
+        <dateNaissance>
+            <jour>11</jour>
+            <mois>4</mois>
+            <annee>2000</annee>
+        </dateNaissance>
+    </personnes>
+    <personnes>
+        <nom>Tenede</nom>
+        <prenom>Bryan</prenom>
+        <dateNaissance>
+            <jour>11</jour>
+            <mois>4</mois>
+            <annee>2000</annee>
+        </dateNaissance>
+    </personnes>
+</personnes>
