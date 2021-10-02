@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<personne nom="Tenede">
-    <dateNaissance>
-        <annee>2000</annee>
-        <jour>11</jour>
-        <mois>4</mois>
-    </dateNaissance>
-    <prenom>Bryan</prenom>
-</personne>
